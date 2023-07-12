@@ -1,6 +1,5 @@
 * {
     margin: 0;
-
 }
 
 body {
@@ -115,9 +114,7 @@ body {
 
 
     border-radius: 15px;
-    font-size: 20px;
-
-    
+    font-size: 20px; 
 }
 
 .second .three {
@@ -269,4 +266,14 @@ body {
     max-width: 60%;
     height: 50px;
    
+}
+.last{
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.last .title6{
+    font-size: 30px;
+    margin: 40px 0px;
 }
