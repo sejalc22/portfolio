@@ -116,13 +116,13 @@ body {
 .three {
     width: 38%;
     background-color: #4b313c;
-    margin: 15px;
-    padding: 30px;
+    margin: 0.98rem;
+    padding: 1.87rem;
     /* border: 2px solid white; */
-    height: 120x;
+    height: 7.5rem;
 
-    border-radius: 15px;
-    font-size: 20px;
+    border-radius: 0.93rem;
+    font-size: 1.25rem;
     display: flex;
     justify-content: center;
 }
