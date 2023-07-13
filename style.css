@@ -265,9 +265,9 @@ body {
 .ts,
 .js,
 .gitlab {
-    max-width: 30%;
-    height: 100px;
-    padding: 30px;
+    max-width: 10rem;
+    height: 8rem;
+    padding: 1.87rem;
 }
 
 .contactme {
