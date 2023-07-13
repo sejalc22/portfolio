@@ -6,10 +6,18 @@ body {
     background-color: #321c25;
     color: white;
 }
-
+.p{
+    font-size:20px ;
+}
+.name{
+    color: #bca0ac;
+    font-size: 40px;
+}
 .navbar {
     /* border: 3px solid black; */
-
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
     background-color: #4b313c;
     display: flex;
     align-items: center;
@@ -50,7 +58,7 @@ body {
 }
 
 .first {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -59,7 +67,7 @@ body {
 
 .leftSection {
     font-size: 30px;
-    width: 30%;
+    width: 40%;
     /* border: 2px solid black; */
 }
 
@@ -75,10 +83,11 @@ body {
 }
 
 .second {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 40px ;
     /* margin: 25px 0px; */
 }
 
@@ -90,10 +99,12 @@ body {
     width: 100%;
     /* border: 3px solid white; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
-.second .one {
+.second .one, .two, .three {
+    width: 38%;
     background-color: #4b313c;
     margin: 15px;
     padding: 30px;
@@ -102,33 +113,28 @@ body {
 
     border-radius: 15px;
     font-size: 20px;
+display: flex;
+justify-content: center;
+}
+.second .one img{
+    
+        padding: 10px;
+        max-width: 30%;
+        height: 90px;
+    
+}
+.second .two img{
+    
+    padding: 10px;
+    max-width: 30%;
+    height: 90px;
 
 }
-
-.second .two {
-    background-color: #4b313c;
-    margin: 15px;
-    padding: 30px;
-    /* border: 2px solid white; */
-    height: 120x;
-
-
-    border-radius: 15px;
-    font-size: 20px; 
+.second .three img{
+    padding: 10px;
+    max-width: 30%;
+    height: 90px;
 }
-
-.second .three {
-    background-color: #4b313c;
-    margin: 15px;
-    padding: 30px;
-    /* border: 2px solid white; */
-    height: 120x;
-
-
-    border-radius: 15px;
-    font-size: 20px;
-}
-
 .one:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
 }
@@ -142,7 +148,7 @@ body {
 }
 
 .third {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     margin: 25px 0px;
     display: flex;
     flex-direction: column;
@@ -154,9 +160,9 @@ body {
     width: 80%;
     /* border: 3px solid white; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    
+    align-items: center;
 }
 
 .third .title3 {
@@ -165,7 +171,8 @@ body {
 }
 
 
-.third .gs {
+.third .gs, .leap, .citi {
+    width: 30%;
     background-color: #4b313c;
     border-radius: 15px;
     /* padding-left: 30px; */
@@ -174,43 +181,29 @@ body {
    padding: 20px;
     text-align: center;
     height: 20vh;
-    margin: 0px 10px;
+    margin: 10px 10px;
     /* border: 3px solid white; */
     display: flex;
     justify-content: flex-start;
 
 }
 
-.third .citi {
-    background-color: #4b313c;
-    border-radius: 15px;
-    align-items: center;
-    text-align: center;
-    /* padding-left: 40px; */
-    padding: 20px;
-    font-size: 20px;
-    height: 20vh;
-    margin: 0px 10px;
-    /* border: 3px solid white; */
-    display: flex;
-    justify-content: flex-start;
-
+.third .gs img{
+    padding: 10px;
+    max-width: 60%;
+    height: 90px;
+}
+.third .citi img{
+    padding: 10px;
+    max-width: 30%;
+    height: 90px;
+}
+.third .leap img{
+    padding: 10px;
+    max-width: 60%;
+    height: 90px;
 }
 
-.third .leap {
-    background-color: #4b313c;
-    border-radius: 15px;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    font-size: 20px;
-    height: 20vh;
-    margin: 0px 10px;
-    /* border: 3px solid white; */
-    display: flex;
-    justify-content: flex-start;
-
-}
 .gs:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
 }
@@ -224,7 +217,7 @@ body {
 }
 
 .fourth {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -245,14 +238,14 @@ body {
 }
 
 .contactme{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .contactme .title5{
     font-size: 30px;
-    margin: 40px 0px;
+   margin: 40px 0px;
 }
 .contactme .parentCM{
     
@@ -265,15 +258,68 @@ body {
     padding: 10px;
     max-width: 60%;
     height: 50px;
-   
+   padding-bottom: 60px;
 }
 .last{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 25px 0px;
+
 }
 .last .title6{
     font-size: 30px;
     margin: 40px 0px;
+}
+.last .parentproj{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid white; */
+}
+.last .isro, .discord, .crypto{
+    background-color: #4b313c;
+    font-size: 20px;
+    margin: 10px 10px;
+    /* border: 2px solid white; */
+    height: 20vh;
+    width: 30%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.last .isro img{
+    padding: 10px;
+    max-width: 60%;
+    height: 90px;
+   
+}
+.last .crypto img{
+    padding: 10px;
+    max-width: 60%;
+    height: 90px;
+   
+}
+.last .discord img{
+    padding: 10px;
+    max-width: 60%;
+    height: 90px;
+   
+}
+.discord:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+.crypto:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+.isro:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+.hr1, .hr2, .hr3, .hr4, .hr5{
+    border: 0.5px solid #4b313c;
 }
